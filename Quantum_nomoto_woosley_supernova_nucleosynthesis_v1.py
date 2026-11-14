@@ -16,9 +16,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -252,17 +252,17 @@ Posebnost: Nuklearna mreza alfa-zahvata i kolapsa jezgra + SVD UnitaryGate na si
 CSV: loto7_4718_k90.csv
 Validacija NLL (shock=1.25, alpha_cap=0.2): 27.3384
 Test NLL: 27.2864
-NEXT: [6, 7, 9, 15, 17, 23, 38]
+NEXT: [6, x, 9, y, 17, z, 38]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (shock=1.25, alpha_cap=0.5): 27.3181
 Test NLL: 27.4576
-NEXT: [6, 7, 9, 14, 19, 23, 29]
+NEXT: [6, x, 9, y, 19, z, 29]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (shock=1.25, alpha_cap=0.5): 27.4924
 Test NLL: 27.3260
-NEXT: [3, 6, 13, 17, 21, 26, 37]
+NEXT: [3, x, 13, y, 21, z, 37]
 """
 
 
